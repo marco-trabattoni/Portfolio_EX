@@ -11,7 +11,7 @@ document.getElementById("data").innerHTML = today;*/
 
 var speed = 64;
 var i = 0;
-var txt = 'Hello, I am Marco,';
+var txt = 'Hello, I am Marco';
 var text = '';
 
 
