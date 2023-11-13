@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="projects.css">
+    <style>
+      .menu{
+        background-color: blue;
+        color: white;
+      }
+      </style>
+  </head>
+<body>
+
+<div class="menu">
+<a href="index.html" class="home">Menu</a>
+
+<div class="infoL">
+    <div class="subtitle">TEAM PROJECT</div>
+    <div class="title">Il Gesto Eterno</div>
+    </div>
+    
+    <div class="infoR">
+    <div class="subtitle right">MY ROLE</div>
+    <div class="subtitle right black">Branding, Layout Design, UI Design, Web Prototyping</div>
+    </div>
+</div>
+
+
+<img class="copertina" src="Images/gestoeterno/copertina.png">
+
+<div class="introtext">
+  The Eternal Gesture is an exhibition project designed to make accessible a series of Lucio Fontana's works of art present within the Museo del 900' in Milan.
+  In line with this objective, scale reproductions of Fontana's triptych have been created; the materiality and depth of the cuts reproduced on the canvases allows people with visual impairments to tactilely enjoy the artworks. The individual reproductions are accompanied by text descriptions that are also translated into Braille to complete the enjoyment.
+  A printed brochure has also been designed with the aim of providing a tactile "experience" that can also be enjoyed individually. In fact, on it there is additional textual information, with its translation into Braille, to delve deeper into Fontana's artistic work.
+</div>
+
+<div class="bigcover">
+    <img class="three" src="Images/gestoeterno/foto.png">
+    <img class="three" src="Images/gestoeterno/foto1.png">
+    <img class="three" src="Images/gestoeterno/foto2.png">
+</div>
+
+<div class="conclusion">
+  By scanning the QR code on the brochure, one then accesses an audio content player, specifically designed to be easily used by blind people. The player implements a nonvisual interactive interface, taking advantage of the entire screen of the mobile device to manage user interactions without needing to see what is on the screen.
+</div>
+
+<div class="bigcover">
+  <div class="boxvideo defined"  onmouseenter="tellplay(1)" onmouseleave="tellstop()">
+    <video id="video" class="app" onclick="controlvideo()">
+      <source src="Images/gestoeterno/vid1.mp4" type="video/mp4">
+    </video>
+    <div id="play"><div class="center">Play</div></div>
+  </div>
+  <video class="twoimages" autoplay muted loop>
+    <source src="Images/gestoeterno/guida.mov" type="video/mp4">
+  </video>
+</div>
+
+<div class="bigcover">
+  <div class="boxvideo defined"  onmouseenter="tellplay2(1)" onmouseleave="tellstop2()">
+    <video id="video2" class="app" onclick="controlvideo2()">
+      <source src="Images/gestoeterno/app.mov" type="video/mp4">
+    </video>
+    <div id="play2" class="play"><div class="center">Play</div></div>
+  </div>
+  <img class="twoimages" src="Images/gestoeterno/QR.png">
+</div>
+
+
+<script src="project.js"></script>
+</body>
+</html>

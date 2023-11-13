@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="projects.css">
+    <style>
+    .menu{
+      background-color: red;
+      color: white;
+    }
+    </style>
+</head>
+<body>
+
+<div class="menu">
+<a href="index.html" class="home">Menu</a>
+
+<div class="infoL">
+  <div class="subtitle">PERSONAL PROJECT</div>
+  <div class="title">Halidon Visual Identity Redesign</div>
+  </div>
+  
+  <div class="infoR">
+  <div class="subtitle right">MY ROLE</div>
+  <div class="subtitle right black">Branding, Layout Design, Motion Design</div>
+  </div>
+</div>
+
+
+<img class="copertina" src="Images/halidon/Halidon.png">
+
+<div class="introtext">
+  Halidon is an independent Italian record company, music publisher and distributor. They have the license and ownership of a vast music repertoire covering several genres but with a particular focus on classical music. Through their YouTube channel they share music collections with a very large community of classical music fans. Through an observation of their content, I identified a missed opportunity in communicating effectively but most importantly distinctively. While in fact Halidon offers high-level content through its channels, it is not the only one to do so, and obvious communication risks not making it stand out in the appropriate way, communication to which I tried to provide an ad hoc solution.
+</div>
+
+<div class="bigcover">
+<img class="twoimages" src="Images/halidon/Halidon-03.png">
+<img class="twoimages" src="Images/halidon/Halidon-04.png">
+</div>
+
+<div class="conclusion">
+  The line as a metaphor for sound, for notes, repetitive entities, always the same. But it is precisely from the union of the different notes that it becomes possible to create extraordinary symphonies.
+</div>
+
+<img class="bigcover" src="Images/halidon/Halidon-05.png">
+
+<div class="boxvideo"  onmouseenter="tellplay()" onmouseleave="tellstop()">
+  <video id="video" class="video" onclick="controlvideo()">
+    <source src="Images/halidon/Visuals.m4v" type="video/mp4">
+  </video>
+  <div id="play"><div class="center">Play</div></div>
+</div>
+
+
+<script src="project.js"></script>
+</body>
+</html>
