@@ -1,0 +1,172 @@
+@font-face {
+    font-family: sans;
+    src: url(Resources/SaansTRIAL-Regular.otf);
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: sans;
+    color: black;
+    position: relative;
+}
+
+
+.menu {
+    width: 100vw;
+    height: 27vh;
+    position: relative;
+}
+
+.home {
+    position: absolute;
+    left: 3vw;
+    top: 1vw;
+    font-size: 1.1vw;
+    text-decoration: none;
+    color: black;
+}
+
+
+.infoL {
+    position: absolute;
+    left: 3vw;
+    bottom: 2vw;
+}
+
+.infoR {
+    position: absolute;
+    right: 3vw;
+    bottom: 2vw;
+}
+
+
+.subtitle {
+    font-size: 0.9vw;
+    margin-top: 3vw;
+}
+
+.right {
+    text-align: right;
+    opacity: 36%;
+}
+
+.black {
+    margin-top: 1vw;
+    font-size: 2.1vw;
+}
+
+
+.title {
+    font-size: 2.1vw;
+    margin-top: 1vw;
+}
+
+.copertina {
+    width: 100vw;
+}
+
+.bigcover {
+    width: 94vw;
+    padding-top: 2vw;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+
+.bigcover::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+.twoimages {
+    width: 50%;
+    float: left;
+    padding-right: 1px;
+}
+
+.three {
+    width: 33%;
+    float: left;
+    padding-right: 1px;
+}
+
+.introtext {
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+    width: 94vw;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 2.4vw;
+}
+
+.conclusion {
+    margin-top: 9vw;
+    margin-bottom: 9vw;
+    width: 94vw;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 3.6vw;
+}
+
+.video {
+    width: 94vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+
+.boxvideo {
+    position: relative;
+    cursor: pointer;
+}
+
+.defined {
+    width: 50%;
+    float: left;
+    padding-right: 1px;
+}
+
+.rai {
+    width: 100vw;
+}
+
+.app {
+    width: 100%;
+}
+
+#play {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 1.2vw;
+    transition: opacity 0.3s, background-color 0.1s ;
+}
+
+.play {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 1.2vw;
+    transition: opacity 0.3s, background-color 0.1s ;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}

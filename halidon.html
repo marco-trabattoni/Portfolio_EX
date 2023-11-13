@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="projects.css">
+    <style>
+    .menu{
+      background-color: red;
+      color: white;
+    }
+    </style>
+</head>
+<body>
+
+<div class="menu">
+<a href="index.html" class="home">Menu</a>
+
+<div class="infoL">
+  <div class="subtitle">PERSONAL PROJECT</div>
+  <div class="title">Halidon Visual Identity Redesign</div>
+  </div>
+  
+  <div class="infoR">
+  <div class="subtitle right">MY ROLE</div>
+  <div class="subtitle right black">Branding, Layout Design, Motion Design</div>
+  </div>
+</div>
+
+
+<img class="copertina" src="Images/halidon/Halidon.png">
+
+<div class="introtext">
+La Halidon è una casa discografica indipendente italiana,
+editore e distributore musicale.
+Possiede la licenza e la proprietà di un vasto repertorio musicale che copre diversi generi: musica classica, jazz, world music, lounge, easy listening, canzoni per bambini, musica italiana e internazionale.
+</div>
+
+<div class="bigcover">
+<img class="twoimages" src="Images/halidon/Halidon-03.png">
+<img class="twoimages" src="Images/halidon/Halidon-04.png">
+</div>
+
+<div class="conclusion">
+  La Halidon è una casa discografica indipendente italiana,
+editore e distributore musicale.
+Possiede la licenza e la proprietà di un vasto repertorio musicale che copre diversi generi: musica classica, jazz, world music, lounge, easy listening, canzoni per bambini, musica italiana e internazionale.
+</div>
+
+<img class="bigcover" src="Images/halidon/Halidon-05.png">
+
+<div class="boxvideo"  onmouseenter="tellplay()" onmouseleave="tellstop()">
+  <video id="video" class="video" onclick="controlvideo()">
+    <source src="Images/halidon/Visuals.m4v" type="video/mp4">
+  </video>
+  <div id="play"><div class="center">Play</div></div>
+</div>
+
+
+<script src="project.js"></script>
+</body>
+</html>
